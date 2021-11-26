@@ -1,0 +1,15 @@
+[package]
+name = "libmj"
+version = "0.1.0"
+authors = ["James Wang <jameswang9909@hotmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libheartbeat = { path = "../libheartbeat" }
+libsdfs = { path = "../libsdfs" }
+libutils = { path = "../libutils" }
+serde = "1.0.117"
+tempdir = "0.3.7"
+walkdir = "2.3.1"

@@ -1,0 +1,4 @@
+apps/condorcet/data/*.txt
+apps/us-household-income/data
+
+target

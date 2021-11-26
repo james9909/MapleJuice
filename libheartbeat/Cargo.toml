@@ -1,0 +1,10 @@
+[package]
+name = "libheartbeat"
+version = "0.1.0"
+authors = ["James Wang <jameswang9909@hotmail.com>", "Rishi Desai <desai.rishi1@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.7.3"
+libutils = { path = "../libutils" }
+serde = "1.0.117"

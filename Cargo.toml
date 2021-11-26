@@ -1,0 +1,9 @@
+[workspace]
+
+members = [
+    "libheartbeat",
+    "libsdfs",
+    "libmj",
+    "mj-client",
+    "mj-server"
+]
